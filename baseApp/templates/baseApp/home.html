@@ -1,0 +1,110 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <!-- <link rel="stylesheet" href="{% static 'baseApp/css/design.css' %}" type="text/css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+   img {
+      height:500%;
+      width:200px;
+      margin:5px;
+      border-radius:900px;
+ }
+   body{
+     margin:30px;
+     padding:60px;
+ }
+ }
+  h2{
+    font-style:italic;
+
+  }
+  .col-md-6{
+     box-shadow: 4px 3px 10px 0px rgba(0,0,0,0.9);
+     }
+  #class{
+     width:900%;
+     height:400%;
+    }
+  .card card-body{
+     color:red;
+     }
+   span{
+     color:#191970;
+     font-size:20px;
+     }
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+    <div class="col-md-3">
+        <div class="card card-body">
+            <img id="dd" src="{% static 'baseApp/images/vj.jpg' %}">
+            <div>
+            <p>Thalapathy <span>vijay</span> </p><hr>
+                most smartest and popular actor in south cinemas
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="card card-body">
+            <h2>Bio</h2><hr>
+             Joseph Vijay is an Indian film actor, playback singer and dancer who works in Tamil cinema. Referred to by fans and media as Thalapathy, Vijay is the highest paid actor and one of the most significant figures in the industry.<br /> Wikipedia<br />
+Born: 22 June 1974 (age 45 years), Chennai<br />
+Spouse: Sangeeta Sornalingam (m. 1999)<br />
+Parent(s): S. A. Chandrasekhar (father); Shoba (mother)<br />
+Children: Jason Sanjay, Divya Shasha<br />
+Awards: Vijay Award for Favourite Hero, MORE<br />
+Albums: Puli (Original Motion Picture Soundtrack), Jilla, MORE<br />
+
+        </div>
+    </div>
+</div><br />
+    <div class="row">
+        <div class="col-md-4">
+        <div class="card card-body">
+            <h2> Most Overrated Movies</h2><hr>
+            1.Poove unakaga
+2.Kadhaluku mariyathai
+3.Thullatha manamum thullum
+4.Kushi
+5.Gilli
+6.Thirupachi
+7.Pokkiri
+8.Nanban
+9.Thupakki
+10.Kaththi
+11.Theri
+12.Mersal
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card card-body">
+            <h2>Interesting Facts</h2><hr>
+            <ul>
+                <li>Worked as a child artist</li>
+           <li> A hardcore Rajinikanth fan</li>
+            <li>Most famous non-Malayali actor in Kerala</li>
+            <li>Vijay is an avid philanthropist</li>
+                </ul>
+        </div>
+    </div>
+
+    </div>
+     <div id="gg" class="row-md-2">
+        <div class="col-md-6">
+         </div>
+    </div>
+    <br />
+
+
+
+</div>
+</body>
+</html>
